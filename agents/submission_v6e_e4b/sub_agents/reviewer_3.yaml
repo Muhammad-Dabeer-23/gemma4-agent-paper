@@ -1,0 +1,9 @@
+name: reviewer_3
+model: gemma-4-e4b-it-qat-w4a16-ct
+instruction: !include ../prompts/reviewer.md
+include_contents: none
+tools:
+  - run_command
+  - read_file
+  - submit_patch
+generate_content_config: !include ../configs/sampling.yaml

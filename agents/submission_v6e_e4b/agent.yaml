@@ -1,0 +1,8 @@
+name: swe_pipeline
+agent_class: SequentialAgent
+description: Fixes the issue, then three independent reviewers in turn check and repair the fix.
+sub_agents:
+  - config_path: sub_agents/fixer.yaml
+  - config_path: sub_agents/reviewer.yaml
+  - config_path: sub_agents/reviewer_2.yaml
+  - config_path: sub_agents/reviewer_3.yaml
