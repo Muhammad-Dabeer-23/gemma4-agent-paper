@@ -1,4 +1,4 @@
-# Same Tasks, Same Ceiling — code for our Gemma 4 Developer Agent paper
+# Same Tasks, Same Ceiling - code for our Gemma 4 Developer Agent paper
 
 Code and agent configurations behind our Kaggle Gemma 4 Developer Agent Paper Track writeup
 ([docs/paper_writeup.md](docs/paper_writeup.md)). Competition data (tasks, snapshots, reference patches) is
